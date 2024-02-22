@@ -25,7 +25,7 @@ function App() {
     const mobilenetModule =useRef();
     const [touched, setTouched] = useState(false);
     
-
+  
     const init = async () => {
         console.log('init...');
         await setupCamera();
