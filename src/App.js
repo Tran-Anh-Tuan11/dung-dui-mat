@@ -31,7 +31,7 @@ function App() {
         await setupCamera();
         console.log('succes setupCamera');
 
-        classifier.current = knnClassifier.create();
+        classifier.current = knnClassifier.create();  
 
         mobilenetModule.current = await mobilenet.load();
 
