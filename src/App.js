@@ -23,9 +23,7 @@ function App() {
     const classifier =useRef();
     const canPlaySound = useRef(true);
     const mobilenetModule =useRef();
-    const [touched, setTouched] = useState(false);
-    
-  
+    const [touched, setTouched] = useState(false); 
     const init = async () => {
         console.log('init...');
         await setupCamera();
